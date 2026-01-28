@@ -3,3 +3,6 @@ title: "task04"
 format: html
 ---
 
+cloning new promoters
+-measuring DNA concentrations
+-diluting DNA for PCR

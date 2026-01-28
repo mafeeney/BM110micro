@@ -1,21 +1,23 @@
 # Introduction
 
-The Introduction page is intended as a short introduction to the book.
+In this workshop, we will work through some of the types of calculations that are commonly used in a microbiology lab.
 
-Like most Quarto books, this is a book created from markdown and executable code. 
+We will assume that you are already familiar with the basic concepts for how to make buffers and solutions, dilute or aliquot samples, and ennumerate cells (as these were covered in a previous workshop). 
 
-This kind of book is an example of literate programming - the intertwining of nicely-formatted text and images, and executable code. For example, the `R` code cell below executes and produces output when the book is compiled:
+In this workshop, we will be applying these concepts in the context of a real experiment, and performing all of the calculations necessary to prepare the media and buffers that we will need. 
 
-```{r}
-1 + 1
-```
+## The experiment - a β-galactosidase activity assay
 
-But the `R` code cell below does not:
+Mettert, Erin L, and Patricia J Kiley. “Coordinate regulation of the Suf and Isc Fe-S cluster biogenesis pathways by IscR is essential for viability of <i>Escherichia coli</i>.” Journal of bacteriology vol. 196,24 (2014): 4315-23. doi:10.1128/JB.01975-14
 
-```{r}
-#| eval: false
+>**β-Galactosidase assays.**
+>
+>Strains were grown aerobically by shaking at 250 rpm or anaerobically in screw-cap tubes, to an optical density at 600 nm (OD600) of 0.1 to 0.2 at 37°C in LB; M9 minimal medium containing 0.2% glucose, 1 mM MgSO4, 2.5 μg ml−1 ferric ammonium citrate, 2 μg ml−1 thiamine, 0.02% ammonium molybdate, 12.5 μg ml−1 nicotinic acid, and 0.1 mM CaCl2; or morpholinepropanesulfonic acid (MOPS) minimal medium containing 20 mM arabinose and 0.2% Casamino Acids (26). When indicated, medium was additionally supplemented with 10 μg ml−1 tetracycline (Tet) and various concentrations of isopropyl-β-d-thiogalactopyranoside (IPTG) (0 to 640 μM). For all assays, Tet, Cm, or spectinomycin (Sp) was added to culture samples at final concentrations of 10, 20, or 100 μg ml−1, respectively, to terminate further protein synthesis and cell growth, and cells were kept on ice until assayed for β-galactosidase activity as previously described (27). Due to aerobic and anaerobic cell count differences for cultures grown in M9 minimal medium (28), the Miller units from aerobic cultures were multiplied by 1.5. Assays were repeated at least three independent times, and error bars represent the standard errors of three biological replicates.
 
-summary(cars)
-```
+::: { .callout-tip title="Reading a Methods Section"}
 
-See @knuth84 for additional discussion of literate programming.
+
+
+:::
+
+## Assemble a list of protocols and necessary reagents

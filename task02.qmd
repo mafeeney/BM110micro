@@ -3,3 +3,5 @@ title: "task02"
 format: html
 ---
 
+b-gal assay protocol
+-reagents needed

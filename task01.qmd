@@ -3,3 +3,5 @@ title: "task01"
 format: html
 ---
 
+Making media to grow the cells (Task 01a and 01b)
+Making stocks of antibiotics and IPTG
