@@ -46,7 +46,7 @@ book:
       chapters: 
         - task02a.qmd
         - task02b.qmd
-    - part: task3.qmd
+    - part: task03.qmd
       chapters: 
         - task03a.qmd
         - task03b.qmd

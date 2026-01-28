@@ -8,16 +8,37 @@ In this workshop, we will be applying these concepts in the context of a real ex
 
 ## The experiment - a β-galactosidase activity assay
 
+We will be working out all of the materials and reagents needed to carry out a β-galactosidase activity assay (an extremely commonly used assay in microbiology, as the enzyme β-galactosidase can be used as a **reporter** to measure the expression of specific target genes.)
+
+There are thousands of examples of this assay being performed in the literature, but for this workshop we will select one example (the paper by Mettert *et al.* described below) and use this to illustrate how scientists can carry out all the calculations needed to perform a given experiment.
+
 Mettert, Erin L, and Patricia J Kiley. “Coordinate regulation of the Suf and Isc Fe-S cluster biogenesis pathways by IscR is essential for viability of <i>Escherichia coli</i>.” Journal of bacteriology vol. 196,24 (2014): 4315-23. doi:10.1128/JB.01975-14
+
+### Description of the β-galactosidase activity assay in the methods section of the paper by Mettert *et al.*
 
 >**β-Galactosidase assays.**
 >
->Strains were grown aerobically by shaking at 250 rpm or anaerobically in screw-cap tubes, to an optical density at 600 nm (OD600) of 0.1 to 0.2 at 37°C in LB; M9 minimal medium containing 0.2% glucose, 1 mM MgSO4, 2.5 μg ml−1 ferric ammonium citrate, 2 μg ml−1 thiamine, 0.02% ammonium molybdate, 12.5 μg ml−1 nicotinic acid, and 0.1 mM CaCl2; or morpholinepropanesulfonic acid (MOPS) minimal medium containing 20 mM arabinose and 0.2% Casamino Acids (26). When indicated, medium was additionally supplemented with 10 μg ml−1 tetracycline (Tet) and various concentrations of isopropyl-β-d-thiogalactopyranoside (IPTG) (0 to 640 μM). For all assays, Tet, Cm, or spectinomycin (Sp) was added to culture samples at final concentrations of 10, 20, or 100 μg ml−1, respectively, to terminate further protein synthesis and cell growth, and cells were kept on ice until assayed for β-galactosidase activity as previously described (27). Due to aerobic and anaerobic cell count differences for cultures grown in M9 minimal medium (28), the Miller units from aerobic cultures were multiplied by 1.5. Assays were repeated at least three independent times, and error bars represent the standard errors of three biological replicates.
+>Strains were grown aerobically by shaking at 250 rpm or anaerobically in screw-cap tubes, to an optical density at 600 nm (OD600) of 0.1 to 0.2 at 37°C in LB; M9 minimal medium containing 0.2% glucose, 1 mM MgSO<sub>4</sub>, 2.5 μg ml<sup>−1</sup> ferric ammonium citrate, 2 μg ml<sup>−1</sup> thiamine, 0.02% ammonium molybdate, 12.5 μg ml<sup>−1</sup> nicotinic acid, and 0.1 mM CaCl<sub>2</sub>; or morpholinepropanesulfonic acid (MOPS) minimal medium containing 20 mM arabinose and 0.2% Casamino Acids (26). When indicated, medium was additionally supplemented with 10 μg ml<sup>−1</sup> tetracycline (Tet) and various concentrations of isopropyl-β-d-thiogalactopyranoside (IPTG) (0 to 640 μM). For all assays, Tet, Cm, or spectinomycin (Sp) was added to culture samples at final concentrations of 10, 20, or 100 μg ml<sup>−1</sup>, respectively, to terminate further protein synthesis and cell growth, and cells were kept on ice until assayed for β-galactosidase activity as previously described (27). Due to aerobic and anaerobic cell count differences for cultures grown in M9 minimal medium (28), the Miller units from aerobic cultures were multiplied by 1.5. Assays were repeated at least three independent times, and error bars represent the standard errors of three biological replicates.
 
-::: { .callout-tip title="Reading a Methods Section"}
+::: { .callout-tip title="Tips for Reading a Methods Section" colapse="true"}
 
+This may be your first time reading the methods section of a published microbiology paper, and so the format may be somewhat unfamiliar to you. 
 
+Note that by convention, methods sections are written in the 3rd person and in the past tense, and are written very concisely (they often refer to previous papers/methods, i.e. "assays were performed as in [reference]"). It may be necessary to do some additional reading (of these references or other supplementary materials) in order to understand what was done. 
 
+A good methods section gives enough information that a competent scientist could repeat the experiments, but is not written out like a step-by-step protocol. Some translation (and often, some calculations) is needed in order to translate the methods section into the actual execution of an experiment.
 :::
 
-## Assemble a list of protocols and necessary reagents
+## Assemble a list of the necessary reagents to repeat these β-galactosidase activity assay
+
+::: { .callout-challenge }
+What materials (media and reagents) do you think are needed for this experiment? 
+:::
+
+::: { .callout-tip }
+Read through the protocol carefully, one step at a time. 
+
+Note that first, the strains were grown in different conditions (aerobically or anaerobically) and in different growth media (LB, M9 minimal medium, MOPS minimal medium), and that these growth media were supplemented with a number of different compounds (different antibiotics and IPTG).
+
+Then, the cells were assayed for β-galactosidase activity "as previously described (27)" - this method (and the reagents needed to perform the experiment) should be described in that reference. 
+:::

@@ -1,5 +1,12 @@
 ---
-title: "task01a"
+title: "Task 01a"
 format: html
 ---
 
+# Making growth media for our experiments
+
+## Making LB medium
+
+## Making M9 minimal medium
+
+## Making MOPS minimal medium

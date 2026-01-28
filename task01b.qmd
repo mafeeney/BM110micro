@@ -3,3 +3,9 @@ title: "task01b"
 format: html
 ---
 
+# Making antibiotics and IPTG stocks
+
+## Tetracycline, Chloramphenicol, and spectinomycin
+
+## IPTG
+

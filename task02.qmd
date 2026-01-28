@@ -3,5 +3,12 @@ title: "task02"
 format: html
 ---
 
-b-gal assay protocol
--reagents needed
+# β-gal assay protocol
+
+## Reagents Needed for a β-galactosidase assay
+
+- Z buffer
+- Chloroform
+- 0.1% SDS solution
+- ONPG solution
+- 1 M Na<sub>2</sub>CO<sub>3</sub> ("stop solution")

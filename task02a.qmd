@@ -3,3 +3,10 @@ title: "task02a"
 format: html
 ---
 
+# Calculations for β assay reagents:
+
+## Z buffer
+
+## ONPG
+
+## 1 M Na<sub>2</sub>CO<sub>3</sub>

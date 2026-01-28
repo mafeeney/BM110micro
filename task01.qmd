@@ -1,7 +1,53 @@
 ---
-title: "task01"
+title: "Task 1"
 format: html
 ---
 
-Making media to grow the cells (Task 01a and 01b)
-Making stocks of antibiotics and IPTG
+First, we will perform all of the calculations necessary in order to grow our cells for the β-galactosidase activity assay.
+
+::: {.callout-note}
+You may remember from our microbiology practical labs in BM110 that we use different growth media to grow different kinds of cells (there, we were growing our bacterial cells in nutrient broth or on solid nutrient agar, and our yeast cells in/on Saboraud Dextrose media). The growth media (and other environmental conditions) can have a large impact on microbial growth and gene expression - hence, the authors of this paper using different environmental conditions to grow their strains and then measure gene expression.
+:::
+
+Our task, therefore, is to do the calculations necessary to prepare the bacterial growth media we need (LB, M9 minimal medium, and MOPS minimal medium), and then to prepare all of the supplements necessary (antibiotics and IPTG). 
+
+::: { .callout-question }
+
+:::::{.question}
+The first question we must answer is: how much media are we going to make?
+
+::::{.choices}
+
+:::{.choice}
+10 L
+:::  
+
+:::{.choice .correct-choice}
+500 mL
+:::
+
+:::{.choice}
+500 μL 
+:::
+
+:::{.choice}
+100 mL   
+:::
+
+:::{.button-clear title="Clear answer" button-class="btn btn-xs"}
+:::
+
+::::
+:::::
+
+::::{.btn-group}
+:::{.button-hint title="Show hint" button-class="btn btn-xs"}
+Say that we will assay 96 cultures at a time (so that we can use a 96-well-plate), and we will grow our strains in 5 mL cultures...
+:::
+
+:::{.button-answer title="Show Answer" button-class="btn btn-xs"}
+100 cultures (round up a little, in case of pipetting errors) * 5 mL/culture = 500 mL
+:::
+::::
+
+:::
