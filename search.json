@@ -14,7 +14,7 @@
     "href": "intro.html",
     "title": "1  Introduction",
     "section": "",
-    "text": "1.1 The experiment - a β-galactosidase activity assay\nIn this workshop, we will work through some of the types of calculations that are commonly used in a microbiology lab.\nWe will assume that you are already familiar with the basic concepts for how to make buffers and solutions, dilute or aliquot samples, and ennumerate cells (as these were covered in a previous workshop).\nIn this workshop, we will be applying these concepts in the context of a real experiment, and performing all of the calculations necessary to prepare the media and buffers that we will need.\nMettert, Erin L, and Patricia J Kiley. “Coordinate regulation of the Suf and Isc Fe-S cluster biogenesis pathways by IscR is essential for viability of Escherichia coli.” Journal of bacteriology vol. 196,24 (2014): 4315-23. doi:10.1128/JB.01975-14",
+    "text": "1.1 The experiment - a β-galactosidase activity assay\nIn this workshop, we will work through some of the types of calculations that are commonly used in a microbiology lab.\nWe will assume that you are already familiar with the basic concepts for how to make buffers and solutions, dilute or aliquot samples, and ennumerate cells (as these were covered in a previous workshop).\nIn this workshop, we will be applying these concepts in the context of a real experiment, and performing all of the calculations necessary to prepare the media and buffers that we will need.\nWe will be working out all of the materials and reagents needed to carry out a β-galactosidase activity assay (an extremely commonly used assay in microbiology, as the enzyme β-galactosidase can be used as a reporter to measure the expression of specific target genes.)\nThere are thousands of examples of this assay being performed in the literature, but for this workshop we will select one example (the paper by Mettert et al. described below) and use this to illustrate how scientists can carry out all the calculations needed to perform a given experiment.\nMettert, Erin L, and Patricia J Kiley. “Coordinate regulation of the Suf and Isc Fe-S cluster biogenesis pathways by IscR is essential for viability of Escherichia coli.” Journal of bacteriology vol. 196,24 (2014): 4315-23. doi:10.1128/JB.01975-14",
     "crumbs": [
       "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction</span>"
     ]
@@ -24,17 +24,17 @@
     "href": "intro.html#the-experiment---a-β-galactosidase-activity-assay",
     "title": "1  Introduction",
     "section": "",
-    "text": "β-Galactosidase assays.\nStrains were grown aerobically by shaking at 250 rpm or anaerobically in screw-cap tubes, to an optical density at 600 nm (OD600) of 0.1 to 0.2 at 37°C in LB; M9 minimal medium containing 0.2% glucose, 1 mM MgSO4, 2.5 μg ml−1 ferric ammonium citrate, 2 μg ml−1 thiamine, 0.02% ammonium molybdate, 12.5 μg ml−1 nicotinic acid, and 0.1 mM CaCl2; or morpholinepropanesulfonic acid (MOPS) minimal medium containing 20 mM arabinose and 0.2% Casamino Acids (26). When indicated, medium was additionally supplemented with 10 μg ml−1 tetracycline (Tet) and various concentrations of isopropyl-β-d-thiogalactopyranoside (IPTG) (0 to 640 μM). For all assays, Tet, Cm, or spectinomycin (Sp) was added to culture samples at final concentrations of 10, 20, or 100 μg ml−1, respectively, to terminate further protein synthesis and cell growth, and cells were kept on ice until assayed for β-galactosidase activity as previously described (27). Due to aerobic and anaerobic cell count differences for cultures grown in M9 minimal medium (28), the Miller units from aerobic cultures were multiplied by 1.5. Assays were repeated at least three independent times, and error bars represent the standard errors of three biological replicates.\n\n\n\n\n\n\n\nTipReading a Methods Section",
+    "text": "1.1.1 Description of the β-galactosidase activity assay in the methods section of the paper by Mettert et al.\n\nβ-Galactosidase assays.\nStrains were grown aerobically by shaking at 250 rpm or anaerobically in screw-cap tubes, to an optical density at 600 nm (OD600) of 0.1 to 0.2 at 37°C in LB; M9 minimal medium containing 0.2% glucose, 1 mM MgSO4, 2.5 μg ml−1 ferric ammonium citrate, 2 μg ml−1 thiamine, 0.02% ammonium molybdate, 12.5 μg ml−1 nicotinic acid, and 0.1 mM CaCl2; or morpholinepropanesulfonic acid (MOPS) minimal medium containing 20 mM arabinose and 0.2% Casamino Acids (26). When indicated, medium was additionally supplemented with 10 μg ml−1 tetracycline (Tet) and various concentrations of isopropyl-β-d-thiogalactopyranoside (IPTG) (0 to 640 μM). For all assays, Tet, Cm, or spectinomycin (Sp) was added to culture samples at final concentrations of 10, 20, or 100 μg ml−1, respectively, to terminate further protein synthesis and cell growth, and cells were kept on ice until assayed for β-galactosidase activity as previously described (27). Due to aerobic and anaerobic cell count differences for cultures grown in M9 minimal medium (28), the Miller units from aerobic cultures were multiplied by 1.5. Assays were repeated at least three independent times, and error bars represent the standard errors of three biological replicates.\n\n\n\n\n\n\n\nTipTips for Reading a Methods Section\n\n\n\nThis may be your first time reading the methods section of a published microbiology paper, and so the format may be somewhat unfamiliar to you.\nNote that by convention, methods sections are written in the 3rd person and in the past tense, and are written very concisely (they often refer to previous papers/methods, i.e. “assays were performed as in [reference]”). It may be necessary to do some additional reading (of these references or other supplementary materials) in order to understand what was done.\nA good methods section gives enough information that a competent scientist could repeat the experiments, but is not written out like a step-by-step protocol. Some translation (and often, some calculations) is needed in order to translate the methods section into the actual execution of an experiment.",
     "crumbs": [
       "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction</span>"
     ]
   },
   {
-    "objectID": "intro.html#assemble-a-list-of-protocols-and-necessary-reagents",
-    "href": "intro.html#assemble-a-list-of-protocols-and-necessary-reagents",
+    "objectID": "intro.html#assemble-a-list-of-the-necessary-reagents-to-repeat-these-β-galactosidase-activity-assay",
+    "href": "intro.html#assemble-a-list-of-the-necessary-reagents-to-repeat-these-β-galactosidase-activity-assay",
     "title": "1  Introduction",
-    "section": "1.2 Assemble a list of protocols and necessary reagents",
-    "text": "1.2 Assemble a list of protocols and necessary reagents",
+    "section": "1.2 Assemble a list of the necessary reagents to repeat these β-galactosidase activity assay",
+    "text": "1.2 Assemble a list of the necessary reagents to repeat these β-galactosidase activity assay\n\n\n\n\n\n\nCallout-challengeChallenge\n\n\n\nWhat materials (media and reagents) do you think are needed for this experiment?\n\n\n\n\n\n\n\n\nTip\n\n\n\nRead through the protocol carefully, one step at a time.\nNote that first, the strains were grown in different conditions (aerobically or anaerobically) and in different growth media (LB, M9 minimal medium, MOPS minimal medium), and that these growth media were supplemented with a number of different compounds (different antibiotics and IPTG).\nThen, the cells were assayed for β-galactosidase activity “as previously described (27)” - this method (and the reagents needed to perform the experiment) should be described in that reference.",
     "crumbs": [
       "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction</span>"
     ]
@@ -42,11 +42,88 @@
   {
     "objectID": "task01.html",
     "href": "task01.html",
-    "title": "task01",
+    "title": "Task 1",
     "section": "",
-    "text": "Making media to grow the cells (Task 01a and 01b) Making stocks of antibiotics and IPTG",
+    "text": "First, we will perform all of the calculations necessary in order to grow our cells for the β-galactosidase activity assay.\n\n\n\n\n\n\nNote\n\n\n\nYou may remember from our microbiology practical labs in BM110 that we use different growth media to grow different kinds of cells (there, we were growing our bacterial cells in nutrient broth or on solid nutrient agar, and our yeast cells in/on Saboraud Dextrose media). The growth media (and other environmental conditions) can have a large impact on microbial growth and gene expression - hence, the authors of this paper using different environmental conditions to grow their strains and then measure gene expression.\n\n\nOur task, therefore, is to do the calculations necessary to prepare the bacterial growth media we need (LB, M9 minimal medium, and MOPS minimal medium), and then to prepare all of the supplements necessary (antibiotics and IPTG).\n\n\n\n\n\n\nCallout-questionQuestion\n\n\n\n\nThe first question we must answer is: how much media are we going to make?\n\n\n\n\n ✗10 L\n\n\n ✓500 mL\n\n\n ✗500 μL\n\n\n ✗100 mL\n\n\nClear answer\n\n\n\n\n\n\n\n\n\n\n\nShow hint\n\nSay that we will assay 96 cultures at a time (so that we can use a 96-well-plate), and we will grow our strains in 5 mL cultures…\n\n\n\n\n\n\nShow Answer\n\n100 cultures (round up a little, in case of pipetting errors) * 5 mL/culture = 500 mL",
     "crumbs": [
-      "task01"
+      "Task 1"
+    ]
+  },
+  {
+    "objectID": "task01a.html",
+    "href": "task01a.html",
+    "title": "2  Task 01a",
+    "section": "",
+    "text": "3 Making growth media for our experiments",
+    "crumbs": [
+      "Task 1",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Task 01a</span>"
+    ]
+  },
+  {
+    "objectID": "task01a.html#making-lb-medium",
+    "href": "task01a.html#making-lb-medium",
+    "title": "2  Task 01a",
+    "section": "3.1 Making LB medium",
+    "text": "3.1 Making LB medium",
+    "crumbs": [
+      "Task 1",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Task 01a</span>"
+    ]
+  },
+  {
+    "objectID": "task01a.html#making-m9-minimal-medium",
+    "href": "task01a.html#making-m9-minimal-medium",
+    "title": "2  Task 01a",
+    "section": "3.2 Making M9 minimal medium",
+    "text": "3.2 Making M9 minimal medium",
+    "crumbs": [
+      "Task 1",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Task 01a</span>"
+    ]
+  },
+  {
+    "objectID": "task01a.html#making-mops-minimal-medium",
+    "href": "task01a.html#making-mops-minimal-medium",
+    "title": "2  Task 01a",
+    "section": "3.3 Making MOPS minimal medium",
+    "text": "3.3 Making MOPS minimal medium",
+    "crumbs": [
+      "Task 1",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Task 01a</span>"
+    ]
+  },
+  {
+    "objectID": "task01b.html",
+    "href": "task01b.html",
+    "title": "3  task01b",
+    "section": "",
+    "text": "4 Making antibiotics and IPTG stocks",
+    "crumbs": [
+      "Task 1",
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>task01b</span>"
+    ]
+  },
+  {
+    "objectID": "task01b.html#tetracycline-chloramphenicol-and-spectinomycin",
+    "href": "task01b.html#tetracycline-chloramphenicol-and-spectinomycin",
+    "title": "3  task01b",
+    "section": "4.1 Tetracycline, Chloramphenicol, and spectinomycin",
+    "text": "4.1 Tetracycline, Chloramphenicol, and spectinomycin",
+    "crumbs": [
+      "Task 1",
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>task01b</span>"
+    ]
+  },
+  {
+    "objectID": "task01b.html#iptg",
+    "href": "task01b.html#iptg",
+    "title": "3  task01b",
+    "section": "4.2 IPTG",
+    "text": "4.2 IPTG\ntest",
+    "crumbs": [
+      "Task 1",
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>task01b</span>"
     ]
   },
   {
@@ -54,9 +131,73 @@
     "href": "task02.html",
     "title": "task02",
     "section": "",
-    "text": "b-gal assay protocol -reagents needed",
+    "text": "β-gal assay protocol",
     "crumbs": [
       "task02"
+    ]
+  },
+  {
+    "objectID": "task02.html#reagents-needed-for-a-β-galactosidase-assay",
+    "href": "task02.html#reagents-needed-for-a-β-galactosidase-assay",
+    "title": "task02",
+    "section": "Reagents Needed for a β-galactosidase assay",
+    "text": "Reagents Needed for a β-galactosidase assay\n\nZ buffer\nChloroform\n0.1% SDS solution\nONPG solution\n1 M Na2CO3 (“stop solution”)",
+    "crumbs": [
+      "task02"
+    ]
+  },
+  {
+    "objectID": "task02a.html",
+    "href": "task02a.html",
+    "title": "5  task02a",
+    "section": "",
+    "text": "6 Calculations for β assay reagents:",
+    "crumbs": [
+      "task02",
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>task02a</span>"
+    ]
+  },
+  {
+    "objectID": "task02a.html#z-buffer",
+    "href": "task02a.html#z-buffer",
+    "title": "5  task02a",
+    "section": "6.1 Z buffer",
+    "text": "6.1 Z buffer",
+    "crumbs": [
+      "task02",
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>task02a</span>"
+    ]
+  },
+  {
+    "objectID": "task02a.html#onpg",
+    "href": "task02a.html#onpg",
+    "title": "5  task02a",
+    "section": "6.2 ONPG",
+    "text": "6.2 ONPG",
+    "crumbs": [
+      "task02",
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>task02a</span>"
+    ]
+  },
+  {
+    "objectID": "task02a.html#m-na2co3",
+    "href": "task02a.html#m-na2co3",
+    "title": "5  task02a",
+    "section": "6.3 1 M Na2CO3",
+    "text": "6.3 1 M Na2CO3",
+    "crumbs": [
+      "task02",
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>task02a</span>"
+    ]
+  },
+  {
+    "objectID": "task03.html",
+    "href": "task03.html",
+    "title": "task03",
+    "section": "",
+    "text": "quantifying the cells used in your experiment",
+    "crumbs": [
+      "task03"
     ]
   },
   {
