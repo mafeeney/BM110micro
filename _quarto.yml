@@ -37,25 +37,24 @@ book:
   chapters:
     - index.qmd
     - intro.qmd
-
-    - part: early-section.qmd
+    - part: task01.qmd
       chapters: 
-        - tutorial.qmd
-        - howto.qmd
-        - links.qmd
+        - task01a.qmd
+        - task01b.qmd
+        - task01c.qmd
+    - part: task02.qmd
+      chapters: 
+        - task02a.qmd
+        - task02b.qmd
+    - part: task3.qmd
+      chapters: 
+        - task03a.qmd
+        - task03b.qmd
+    - part: task04.qmd
+      chapters: 
+        - task04a.qmd
+        - task04b.qmd
     
-    - part: example_pages.qmd
-      chapters: 
-        - callouts.qmd
-        - movies.qmd
-        - embedpdf.qmd
-        - quiz.qmd
-        - webr-example.qmd
-        - shinylive.qmd
-        - numbas.qmd
-
-    - references.qmd
-
 # Location of BibTeX format reference file; may not need to be changed
 bibliography: references.bib
 
