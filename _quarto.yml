@@ -56,7 +56,7 @@ book:
         - task04b.qmd
     
 # Location of BibTeX format reference file; may not need to be changed
-bibliography: references.bib
+
 
 # Formatting and theme; may not need to be changed
 # The custom-styles.css is added to provide custom callouts
