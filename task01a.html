@@ -74,15 +74,15 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 <style>
-div.callout-callout-challenge.callout {
-  border-left-color: aquamarine;
+div.callout-callout-question.callout {
+  border-left-color: yellow;
 }
-div.callout-callout-challenge.callout-style-default > .callout-header {
-  background-color: rgb(from aquamarine r g b / 13%);
+div.callout-callout-question.callout-style-default > .callout-header {
+  background-color: rgb(from yellow r g b / 13%);
 }
-div.callout-callout-challenge .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-callout-challenge.callout-style-default .callout-icon::before, div.callout-callout-challenge.callout-titled .callout-icon::before {
-  content: '🧑‍🏫';
+div.callout-callout-question .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-callout-question.callout-style-default .callout-icon::before, div.callout-callout-question.callout-titled .callout-icon::before {
+  content: '🙋';
   background-image: none;
 }
 div.callout-callout-questions.callout {
@@ -107,15 +107,15 @@ div.callout-callout-case-study.callout-style-default .callout-icon::before, div.
   content: '🔍';
   background-image: none;
 }
-div.callout-callout-microbe.callout {
-  border-left-color: #1E90FF;
+div.callout-callout-todo.callout {
+  border-left-color: pink;
 }
-div.callout-callout-microbe.callout-style-default > .callout-header {
-  background-color: rgba(30, 144, 255, 0.13);
+div.callout-callout-todo.callout-style-default > .callout-header {
+  background-color: rgb(from pink r g b / 13%);
 }
-div.callout-callout-microbe .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-callout-microbe.callout-style-default .callout-icon::before, div.callout-callout-microbe.callout-titled .callout-icon::before {
-  content: '🧫';
+div.callout-callout-todo .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-callout-todo.callout-style-default .callout-icon::before, div.callout-callout-todo.callout-titled .callout-icon::before {
+  content: '📝';
   background-image: none;
 }
 div.callout-callout-data.callout {
@@ -129,37 +129,26 @@ div.callout-callout-data.callout-style-default .callout-icon::before, div.callou
   content: '📊';
   background-image: none;
 }
-div.callout-callout-todo.callout {
-  border-left-color: pink;
+div.callout-callout-microbe.callout {
+  border-left-color: #1E90FF;
 }
-div.callout-callout-todo.callout-style-default > .callout-header {
-  background-color: rgb(from pink r g b / 13%);
+div.callout-callout-microbe.callout-style-default > .callout-header {
+  background-color: rgba(30, 144, 255, 0.13);
 }
-div.callout-callout-todo .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-callout-todo.callout-style-default .callout-icon::before, div.callout-callout-todo.callout-titled .callout-icon::before {
-  content: '📝';
+div.callout-callout-microbe .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-callout-microbe.callout-style-default .callout-icon::before, div.callout-callout-microbe.callout-titled .callout-icon::before {
+  content: '🧫';
   background-image: none;
 }
-div.callout-callout-question.callout {
-  border-left-color: yellow;
+div.callout-callout-challenge.callout {
+  border-left-color: aquamarine;
 }
-div.callout-callout-question.callout-style-default > .callout-header {
-  background-color: rgb(from yellow r g b / 13%);
+div.callout-callout-challenge.callout-style-default > .callout-header {
+  background-color: rgb(from aquamarine r g b / 13%);
 }
-div.callout-callout-question .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-callout-question.callout-style-default .callout-icon::before, div.callout-callout-question.callout-titled .callout-icon::before {
-  content: '🙋';
-  background-image: none;
-}
-div.callout-callout-thumbs-up.callout {
-  border-left-color: #008000;
-}
-div.callout-callout-thumbs-up.callout-style-default > .callout-header {
-  background-color: rgba(0, 128, 0, 0.13);
-}
-div.callout-callout-thumbs-up .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-callout-thumbs-up.callout-style-default .callout-icon::before, div.callout-callout-thumbs-up.callout-titled .callout-icon::before {
-  content: '👍';
+div.callout-callout-challenge .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-callout-challenge.callout-style-default .callout-icon::before, div.callout-callout-challenge.callout-titled .callout-icon::before {
+  content: '🧑‍🏫';
   background-image: none;
 }
 div.callout-callout-discussion.callout {
@@ -171,6 +160,17 @@ div.callout-callout-discussion.callout-style-default > .callout-header {
 div.callout-callout-discussion .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
 div.callout-callout-discussion.callout-style-default .callout-icon::before, div.callout-callout-discussion.callout-titled .callout-icon::before {
   content: '✨';
+  background-image: none;
+}
+div.callout-callout-thumbs-up.callout {
+  border-left-color: #008000;
+}
+div.callout-callout-thumbs-up.callout-style-default > .callout-header {
+  background-color: rgba(0, 128, 0, 0.13);
+}
+div.callout-callout-thumbs-up .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-callout-thumbs-up.callout-style-default .callout-icon::before, div.callout-callout-thumbs-up.callout-titled .callout-icon::before {
+  content: '👍';
   background-image: none;
 }
 </style>
@@ -343,7 +343,11 @@ div.callout-callout-discussion.callout-style-default .callout-icon::before, div.
   <li><a href="#making-growth-media-for-our-experiments" id="toc-making-growth-media-for-our-experiments" class="nav-link active" data-scroll-target="#making-growth-media-for-our-experiments"><span class="header-section-number">3</span> Making growth media for our experiments</a>
   <ul class="collapse">
   <li><a href="#making-lb-medium" id="toc-making-lb-medium" class="nav-link" data-scroll-target="#making-lb-medium"><span class="header-section-number">3.1</span> Making LB medium</a></li>
-  <li><a href="#making-m9-minimal-medium" id="toc-making-m9-minimal-medium" class="nav-link" data-scroll-target="#making-m9-minimal-medium"><span class="header-section-number">3.2</span> Making M9 minimal medium</a></li>
+  <li><a href="#making-m9-minimal-medium" id="toc-making-m9-minimal-medium" class="nav-link" data-scroll-target="#making-m9-minimal-medium"><span class="header-section-number">3.2</span> Making M9 minimal medium</a>
+  <ul class="collapse">
+  <li><a href="#making-5x-m9-salts" id="toc-making-5x-m9-salts" class="nav-link" data-scroll-target="#making-5x-m9-salts"><span class="header-section-number">3.2.1</span> Making 5X M9 salts</a></li>
+  <li><a href="#making-the-supplements-required-for-growing-our-strains-in-m9-minimal-medium" id="toc-making-the-supplements-required-for-growing-our-strains-in-m9-minimal-medium" class="nav-link" data-scroll-target="#making-the-supplements-required-for-growing-our-strains-in-m9-minimal-medium"><span class="header-section-number">3.2.2</span> Making the supplements required for growing our strains in M9 minimal medium</a></li>
+  </ul></li>
   <li><a href="#making-mops-minimal-medium" id="toc-making-mops-minimal-medium" class="nav-link" data-scroll-target="#making-mops-minimal-medium"><span class="header-section-number">3.3</span> Making MOPS minimal medium</a></li>
   </ul></li>
   </ul>
@@ -375,12 +379,191 @@ div.callout-callout-discussion.callout-style-default .callout-icon::before, div.
 <h1 data-number="3"><span class="header-section-number">3</span> Making growth media for our experiments</h1>
 <section id="making-lb-medium" class="level2" data-number="3.1">
 <h2 data-number="3.1" class="anchored" data-anchor-id="making-lb-medium"><span class="header-section-number">3.1</span> Making LB medium</h2>
+<p>The methods section does not provide a recipe for LB medium (this is so commonly used that it is considered “common knowledge” and doesn’t require a citation, here) - so you will have to look up the recipe from a reputable source (here we will look at the Cold Spring Harbor colelction of protocols for the <a href="https://cshprotocols.cshlp.org/content/2006/1/pdb.rec8141.full?text_only=true">LB liquid medium recipe</a>).</p>
+<blockquote class="blockquote">
+<p>Reagent - Amount to add H<sub>2</sub>0 - 950 mL Tryptone - 10 g NaCl - 10 g Yeast extract - 5 g Combine the reagents and shake until the solutes have dissolved. Adjust the pH to 7.0 with 5 N NaOH (~0.2 mL). Adjust the final volume of the solution to 1 L with H<sub>2</sub>O. Sterilize by autoclaving for 20 min at 15 psi (1.05 kg/cm<sup>2) on liquid cycle.</sup></p>
+</blockquote>
+<div class="callout callout-style-default callout-important callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Important
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Note that the recipe for LB as written is for making 1 L of LB. (Recipes for microbiological media are most commonly written for preparing 1 L of the medium.)</p>
+<p>For our purposes, however, we only need 500 mL of media, so we will have to do some lab maths.</p>
+<p>It is good practice to only make up as much as you need of any reagent/medium:</p>
+<ul>
+<li>This avoids cluttering the shelves with unneeded/unused bottles of reagents</li>
+<li>It avoids unnecessary waste, and is more sustainable</li>
+<li>It saves time and money in most instances</li>
+</ul>
+</div>
+</div>
+<div class="callout callout-style-default callout-callout-todo callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Callout-todo</span>Callout-todo
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Your first task, therefore, is to calculate how much of each of the three components (tryptone, NaCl, and yeast extract) is necessary to make 500 mL of LB medium. Use these calculations to answer the questions in the quiz on MyPlace.</p>
+</div>
+</div>
+<div class="callout callout-style-default callout-tip callout-titled" title="Click here for hints on how to approach this calculation">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-3-contents" aria-controls="callout-3" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Tip</span>Click here for hints on how to approach this calculation
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-3" class="callout-3-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>As you develop your skills at lab maths, you will likely develop preferred methods of working. For most of these calculations, there is more than one method that will work to find the correct answer.</p>
+<p>You may find that you prefer to set up ratios, or to always use c<sub>1</sub>v<sub>1</sub> = c<sub>2</sub>v<sub>2</sub> to solve equations. (The precise method that you use is less important than arriving at the correct answer!)</p>
+<p>However, one common theme for all methods, is that you must pay attention to the units! Using the wrong units can result in your answer being wrong by several orders of magnitude.</p>
+<p>Here, your first step might be to convert from mL to L (or vice versa) so that your volumes (500 mL of LB desired; 1 L as per the recipe) are expressed using the same units.</p>
+</div>
+</div>
+</div>
 </section>
 <section id="making-m9-minimal-medium" class="level2" data-number="3.2">
 <h2 data-number="3.2" class="anchored" data-anchor-id="making-m9-minimal-medium"><span class="header-section-number">3.2</span> Making M9 minimal medium</h2>
+<p>Similarly, the methods section does not provide a recipe for M9 medium - so you will again have to look up the recipe from a reputable source (here we will look at the Cold Spring Harbor colelction of protocols for the <a href="https://cshprotocols.cshlp.org/content/2006/1/pdb.rec614">5X M9 salts</a>).</p>
+<section id="making-5x-m9-salts" class="level3" data-number="3.2.1">
+<h3 data-number="3.2.1" class="anchored" data-anchor-id="making-5x-m9-salts"><span class="header-section-number">3.2.1</span> Making 5X M9 salts</h3>
+<p>You will make up the 5X M9 salts according to the recipe, but this then must be supplemented with the necessary ingredients to support bacterial growth.</p>
+<div class="callout callout-style-default callout-callout-question callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Callout-question</span>Question
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<div class="question">
+<p>You have prepared 5X M9 salts. How should you dilute these to make 500 mL of 1X M9?</p>
+<div class="choices">
+<div x-data="{ answer: '' , clear() { this.answer = '' }}">
+
+<div class="choice">
+<p></p><p><input class="form-check-input" type="radio" x-model="answer" value="no1"> <span id="no1" x-show="answer == $el.id" class="badge">✗</span>100 mL of the 5X M9 salts + 500 mL of water</p><p></p>
+</div>
+<div class="choice correct-choice">
+<p></p><p><input class="form-check-input" type="radio" x-model="answer" value="correct"> <span id="correct" x-show="answer == $el.id" class="badge">✓</span>100 mL of the 5X M9 salts + 400 mL of water</p><p></p>
+</div>
+<div class="choice">
+<p></p><p><input class="form-check-input" type="radio" x-model="answer" value="no3"> <span id="no3" x-show="answer == $el.id" class="badge">✗</span>500 mL of the 5X M9 salts + 100 mL of water</p><p></p>
+</div>
+<div class="choice">
+<p></p><p><input class="form-check-input" type="radio" x-model="answer" value="no4"> <span id="no4" x-show="answer == $el.id" class="badge">✗</span>400 mL of the 5X M9 salts + 100 mL of water</p><p></p>
+</div>
+<div class="button-clear" title="Clear answer" data-button-class="btn btn-xs">
+<button x-on:click="clear()" class="btn btn-xs">Clear answer</button>
+
+
+
+</div>
+</div>
+
+</div>
+</div>
+<div class="btn-group">
+<div class="button-hint" title="Show hint" data-button-class="btn btn-xs">
+<div x-data="{ open: false }">
+<button x-on:click="open = ! open" class="btn btn-xs">Show hint</button>
+<div x-show="open" x-transition.duration.200ms="" x-on:click.outside="open = false" class="card card-body border-info">
+<p>The 5X salt solution is 5 times more concentrated than a 1X solution…</p>
+</div>
+</div>
+
+</div>
+<div class="button-answer" title="Show Answer" data-button-class="btn btn-xs">
+<div x-data="{ open: false }">
+<button x-on:click="open = ! open" class="btn btn-xs">Show Answer</button>
+<div x-show="open" x-transition.duration.200ms="" x-on:click.outside="open = false" class="card card-body border-danger">
+<p>Your total final volume should be 500 mL. 1/5th of it should be the 5X M9 salts (to give a final concentration of 1X.) The remainder of the volume should be made up by water (400 mL).</p>
+</div>
+</div>
+
+</div>
+</div>
+</div>
+</div>
+<div class="callout callout-style-default callout-important callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Important
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Microbial growth media must contain all of the elements required to support the growth of the microorganism in question. For rich media (like LB), heterogenous mixtures such as tryptone and yeast extract provide the bacteria with sources of carbon, nitrogen, and a range of different vitamins etc.</p>
+<p>However, to conduct more controlled experiments, we often grow bacteria in defined minimal media, where the composition of the growth medium is precisely known and controlled.</p>
+<p>Here, we have provided a range of salts (in the 5X M9 solution); however, the bacteria will also require nutrients (carbon and nitrogen). These are usually prepared separately, sterilised, and then added to the medium. (This prevents them from precipitating in the autoclave.)</p>
+</div>
+</div>
+</section>
+<section id="making-the-supplements-required-for-growing-our-strains-in-m9-minimal-medium" class="level3" data-number="3.2.2">
+<h3 data-number="3.2.2" class="anchored" data-anchor-id="making-the-supplements-required-for-growing-our-strains-in-m9-minimal-medium"><span class="header-section-number">3.2.2</span> Making the supplements required for growing our strains in M9 minimal medium</h3>
+<p>The supplements to the M9 medium are described in the methods section of the Mettler <em>et al.</em> paper: “0.2% glucose, 1 mM MgSO<sub>4</sub>, 2.5 μg ml<sup>−1</sup> ferric ammonium citrate, 2 μg ml<sup>−1</sup> thiamine, 0.02% ammonium molybdate, 12.5 μg ml<sup>−1</sup> nicotinic acid, and 0.1 mM CaCl<sub>2</sub>”</p>
+<section id="glucose" class="level4" data-number="3.2.2.1">
+<h4 data-number="3.2.2.1" class="anchored" data-anchor-id="glucose"><span class="header-section-number">3.2.2.1</span> 0.2% glucose</h4>
+<p>You will need to add glucose (a carbon source) to your M9 medium so that it can support bacterial growth. The glucose must be prepared separately and filter-sterilised (molecules like sugars will undergo the <a href="https://en.wikipedia.org/wiki/Maillard_reaction">Maillard reaction</a> if autoclaved.)</p>
+<p>You must therefore prepare a more concentrated <strong>stock solution</strong> that can then be diluted to a final concentration of 0.2% in your culture medium.</p>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Tip
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>In principle, a stock solution such as this glucose stock can be prepared to almost any concentration (subject to certain physicochemical limitations - the molecule in question must be soluble at that concentration).</p>
+<p>In practice, it is sensible to make the stock at a concentration that is convenient for us (both mathematically and practically in terms of pipetting). This most often means that we make stock solutions that are 100X or 1000X more concentrated than our final desired working concentration.</p>
+</div>
+</div>
+</section>
+<section id="mm-mgso4" class="level4" data-number="3.2.2.2">
+<h4 data-number="3.2.2.2" class="anchored" data-anchor-id="mm-mgso4"><span class="header-section-number">3.2.2.2</span> 1 mM MgSO<sub>4</sub></h4>
+</section>
+<section id="μg-ml1-ferric-ammonium-citrate" class="level4" data-number="3.2.2.3">
+<h4 data-number="3.2.2.3" class="anchored" data-anchor-id="μg-ml1-ferric-ammonium-citrate"><span class="header-section-number">3.2.2.3</span> 2.5 μg ml<sup>−1</sup> ferric ammonium citrate</h4>
+</section>
+<section id="μg-ml1-thiamine" class="level4" data-number="3.2.2.4">
+<h4 data-number="3.2.2.4" class="anchored" data-anchor-id="μg-ml1-thiamine"><span class="header-section-number">3.2.2.4</span> 2 μg ml<sup>−1</sup> thiamine</h4>
+</section>
+<section id="ammonium-molybdate" class="level4" data-number="3.2.2.5">
+<h4 data-number="3.2.2.5" class="anchored" data-anchor-id="ammonium-molybdate"><span class="header-section-number">3.2.2.5</span> 0.02% ammonium molybdate</h4>
+</section>
+<section id="μg-ml1-nicotinic-acid" class="level4" data-number="3.2.2.6">
+<h4 data-number="3.2.2.6" class="anchored" data-anchor-id="μg-ml1-nicotinic-acid"><span class="header-section-number">3.2.2.6</span> 12.5 μg ml<sup>−1</sup> nicotinic acid</h4>
+</section>
+<section id="mm-cacl2" class="level4" data-number="3.2.2.7">
+<h4 data-number="3.2.2.7" class="anchored" data-anchor-id="mm-cacl2"><span class="header-section-number">3.2.2.7</span> 0.1 mM CaCl<sub>2</sub></h4>
+</section>
+</section>
 </section>
 <section id="making-mops-minimal-medium" class="level2" data-number="3.3">
 <h2 data-number="3.3" class="anchored" data-anchor-id="making-mops-minimal-medium"><span class="header-section-number">3.3</span> Making MOPS minimal medium</h2>
+<p>You can find the recipe for making MOPS minimal medium in the reference provided (the original publication of this growth medium), or <a href="https://www.genome.wisc.edu/resources/protocols/mopsminimal.htm">online here</a>.</p>
+<p>This is a rather complicated medium to make up, so many researchers prefer to buy pre-made MOPS medium!</p>
+<p>Once you have made (or purchased) the 10X MOPS medium salts, you will want to make up a working stock of your medium (1X), which should be supplemented with arabinose and Casamino Acids as indicated in our methods.</p>
 
 
 </section>
