@@ -35,8 +35,8 @@ A good methods section gives enough information that a competent scientist could
 What materials (media and reagents) do you think are needed for this experiment? 
 :::
 
-::: { .callout-tip }
-Read through the protocol carefully, one step at a time. 
+::: { .callout-tip collapse="true"}
+Read through the protocol carefully, one part at a time. 
 
 Note that first, the strains were grown in different conditions (aerobically or anaerobically) and in different growth media (LB, M9 minimal medium, MOPS minimal medium), and that these growth media were supplemented with a number of different compounds (different antibiotics and IPTG).
 
